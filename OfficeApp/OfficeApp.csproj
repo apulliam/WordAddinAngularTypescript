@@ -43,7 +43,6 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Add-in Demo.docx" />
     <None Include="OfficeAppManifest\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5ae6da21-87e3-4b60-a006-7b870260ca40}</SharePointProjectItemId>
     </None>
@@ -51,7 +50,6 @@
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
       <SubType>Designer</SubType>
     </Content>
-    <None Include="Test.docx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OfficeAppWeb\OfficeAppWeb.csproj">
