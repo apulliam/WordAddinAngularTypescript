@@ -1,0 +1,11 @@
+{
+	"name": "ASP.NET",
+	"private": true,
+  "dependencies": {
+    "jquery": "2.2.1",
+    "angular": "1.5.0",
+    "angular-route": "1.5.0",
+    "office-ui-fabric": "2.1.0"
+   
+  }
+}

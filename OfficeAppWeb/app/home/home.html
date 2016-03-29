@@ -1,0 +1,24 @@
+﻿
+    <div id="content-header">
+        <div class="padding">
+            <h1>{{vm.header}}</h1>
+        </div>
+    </div>
+    <div id="content-main">
+        <div class="padding">
+            <p><strong>Add home screen content here.</strong></p>
+            <p>For example:</p>
+            <button id="get-data-from-selection" ng-click="vm.getDataFromSelection()">Get data from selection</button>
+
+            <p style="margin-top: 50px;">
+                <a target="_blank" href="https://go.microsoft.com/fwlink/?LinkId=276812">Find more samples online...</a>
+            </p>
+        </div>
+    </div>
+    <div id="notification-message" ng-show="vm.showNotification">
+        <div class="padding">
+            <div id="notification-message-close" ng-click="vm.hideNotification()"></div>
+            <div id="notification-message-header">{{vm.notification.header}}</div>
+            <div id="notification-message-body">{{vm.notification.body}}</div>
+        </div>
+    </div>
